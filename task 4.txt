@@ -1,0 +1,20 @@
+System.out.println("Would you like to calculate?");
+String choice = new choice[3];
+choice[0] = "Square root";
+choice[1] = "Logarithm";
+choice[2] = "Factorial";
+choice = scan.nextString();
+
+if (choice = "Square root") {
+    System.out.println("Enter the number to square root: ");
+    double x = scan.nextDouble();
+    System.out.println(Math.sqrt(x));
+} else if (choice = "Logarithm") {
+    System.out.println("Enter the number to log: ");
+    double x = scan.nextDouble();
+    System.out.println(Math.log(x));
+} else {
+    System.out.println("Enter the number to do factorial: ");
+    double x = scan.nextDouble();
+    System.out.println(factorial(x));
+}
